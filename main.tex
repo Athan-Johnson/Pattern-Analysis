@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[english]{babel}
+
+\title{The Theory of Pattern Analysis}
+\author{Athan Johnson}
+\date{November 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+I theorize that contrary to popular belief, P is equal to NP. I therefore believe that it is possible to find a polynomial time algorithm that can find the solution to nondeterministic polynomial problems. I also believe that there are overarching patterns in these problems such that there is potential for an algorithm to be made to generate the corresponding solution algorithm for any NP problem. However, such an algorithm I think would likely find these specific solution algorithms in exponential time.
+
+\end{abstract}
+
+
+\section{Introduction}
+
+I will define a pattern as any sequence of points in space. The sequence could be infinite, such as an unending string of 0101... or in multidimensional space such as two points on a graph.
+
+Consider the game Baba is You. This is a simple puzzle game which takes place on a grid, similar to many basic problems used in game theory and AI. However, as the game introduces new mechanics and challenges brute force solutions become exponentially slower. However, the human ability to problem solve does not struggle in exponential time with the complexity of these problems. We are capable of missing "obvious" solutions while at the same time being able to find swiftly work through complex problems where finding a mathematical representation of the problem can be more challenging then working out the problem itself. 
+
+As a more concrete example, reading text in a picture is an extremely challenging problem to solve with computers, currently requiring major investments of time and money into the creation of algorithms that aren't even as consistent as asking someone to read it for you...
+
+Let us consider a common pattern seen in calculus classes: a series of points on a graph. If we randomly generate a finite number of points on this graph, there exist infinitely many polynomials that pass through these points. In fact, there are infinitely many degrees of polynomials that exist that can pass through these points. Even infinitely many points possess infinitely many polynomials of infinite degree which can represent the problem. The challenge is this: is there a way to represent all of these polynomials? A formula which could be given the points, and output the corresponding representation of these infinite polynomials which solve it?
+
+Consider (0,0) as our starting point. How can you represent all polynomials that pass through this single point? According to Google, $p(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x^1$ is the formula to represent all polynomials that  
+
+It may be easier to start by simplifying our problem further. Take for example a tape that consists of 1s and 0s. We now have a single dimension to work with, as well as only two possible numbers. What are ways we can represent this? 
+
+The string 101 can be represented using a piecewise function, where x is the current location of our pointer on the tape, x=1 -> 1, x=2 -> 0, x=3 -> 1. But this is only a crude solution, and does not represent the infinitely many algorithms that can output this number. This can also be represented with x\%2, or x=1 if x!=2, and so on. We need a way of representing these terms in an algorithmic way such that we can create an algorithm which can represent all possible algorithms for a given problem. 
+
+
+
+\end{document}
